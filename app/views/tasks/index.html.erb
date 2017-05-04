@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>MY FULL TODO LIST</h1>
+
+  <ul>
+    <% @tasks.each do |task| %>
+      <li> <%= link_to task.name, task_path(task) %></li>
+    <% end %>
+  </ul>
+
+
+  <button type="button" class="btn btn-primary"><%= link_to "Create a new task", new_task_path %></button>
+
+</div>
+
+

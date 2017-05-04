@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+li > a {
+    color: ##286090;
+}
+
+.container {
+width: 300px;        /* Set the width */
+margin: 0 auto;      /* Set automatic margins on right/left */
+background: white;                          /* White background */
+padding: 30px;                              /* Internal space */
+border-radius: 4px;                         /* Small radius */
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+
+}

@@ -1,0 +1,15 @@
+<%= form_for(@task) do |f| %>
+  <%= f.label :name, "ACTION" %>
+  <%= f.text_field :name %>
+
+  <%= f.label :description, "DETAILED DESCRIPTION" %>
+  <%= f.text_field :description %>
+
+  <%= f.label :status, "STATUS" %>
+  <%= f.text_field :status %>
+
+   <%= f.label :created_at, "CREATION DATE" %>
+  <%= f.text_field :created_at %>
+
+  <%= f.submit %>
+<% end %>
